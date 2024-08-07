@@ -1,0 +1,104 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light grey background for the page */
+    color: #333; /* Dark text color for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Dark grey background for navbar */
+    padding: 10px;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.navbar a:hover {
+    background-color: #555; /* Slightly lighter grey on hover */
+    border-radius: 5px;
+}
+
+/* Mini-navbar styling */
+.mini-navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1c1c1c; /* Even darker grey */
+    padding: 10px;
+    color: white;
+}
+
+.mini-navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.mini-navbar a:hover {
+    background-color: #333; /* Slightly lighter grey on hover */
+    border-radius: 5px;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+/* Avatar box styling */
+.avatar-box {
+    width: 285px;
+    height: 421px;
+    background-color: #ddd; /* Light grey for avatar box */
+    border: 1px solid #999;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /* Centering the avatar box horizontally */
+}
+
+/* Footer styling */
+footer {
+    background-color: #333; /* Dark grey background for footer */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #28a745; /* Green link color */
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+}

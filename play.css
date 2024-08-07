@@ -1,0 +1,36 @@
+/* play.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* White background */
+    margin: 0;
+    color: #333;
+}
+
+.message {
+    text-align: center;
+}
+
+.message h1 {
+    font-size: 3rem; /* Large font size for the main heading */
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.message p {
+    font-size: 1.2rem; /* Slightly larger font for the paragraph */
+    margin-top: 0;
+}
+
+.message a {
+    color: #007bff; /* Blue color for the link */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.message a:hover {
+    text-decoration: underline;
+}
